@@ -10,9 +10,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-sqlalchemy = "^2.0.29"
 pydantic = "^2.7.1"
 pydantic-settings = "^2.0.3"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.29"
+pybabel = "^0.0.0.dev0"
+babel = "^2.14.0"
 
 [tool.poetry.group.bot.dependencies]
 aiogram = "^3.5.0"
@@ -22,7 +25,6 @@ loguru = "^0.7.2"
 sentry-sdk = {extras = ["loguru"], version = "^2.0.0"}
 aiohttp = {extras = ["speedups"], version = "^3.9.5"}
 uvloop = "^0.19.0"
-babel = "^2.13.1"
 cachetools = "^5.3.2"
 orjson = "^3.10.1"
 alembic = "^1.13.1"

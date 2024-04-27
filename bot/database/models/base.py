@@ -2,7 +2,7 @@ import datetime
 from typing import Annotated
 
 from sqlalchemy import text
-from sqlalchemy.orm import DeclarativeBase, mapped_column
+from sqlalchemy.orm import mapped_column, DeclarativeBase
 
 int_pk = Annotated[int, mapped_column(primary_key=True, unique=True, autoincrement=False)]
 created_at = Annotated[datetime.datetime, mapped_column(server_default=text("TIMEZONE('utc', now())"))]

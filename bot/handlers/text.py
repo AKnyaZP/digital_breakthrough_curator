@@ -10,4 +10,5 @@ router = Router(name="text")
 @router.message()
 async def text_handler(message: types.Message) -> None:
     """Return a button with a link to the project."""
+    await message.answer("Подождите, пожалуйста, ИИ думает")
     await message.answer(message.text)

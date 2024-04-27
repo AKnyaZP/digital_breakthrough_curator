@@ -26,11 +26,34 @@ msgstr "кол-во пользователей: <b>{count}</b>"
 
 #: bot/handlers/info.py:11
 msgid "about"
-msgstr "ℹ️ <b>[About]</b>\\"
+msgstr "Команда Netrunners|MISIS"
+
+#: bot/keyboards/inline/contacts.py:11 bot/keyboards/inline/contacts.py:22
+msgid "kgall739"
+msgstr "Карим Галлямов"
+
+msgid "sabkvq"
+msgstr "Сергей Быков"
+
+msgid "knyazev_artem"
+msgstr "Артём Князев"
+
+msgid "LanderWine"
+msgstr "Надежда Агафонова"
+
+msgid "LanderWine"
+msgstr "Надежда Агафонова"
+
+msgid "romanov9617"
+msgstr "Данила Романов"
+
+msgid "goglfoghart"
+msgstr "Антон Зуев"
+
 
 #: bot/handlers/menu.py:13 bot/handlers/start.py:16
 msgid "title main keyboard"
-msgstr "📒 <b>Главное меню</b>."
+msgstr "Главное меню"
 
 #: bot/handlers/support.py:13
 msgid "support text"
@@ -45,23 +68,17 @@ msgstr "Support"
 msgid "back button"
 msgstr "🔙 Вернуться назад"
 
-#: bot/keyboards/inline/menu.py:9
-msgid "wallet button"
-msgstr "👛 Мой кошелёк"
-
-#: bot/keyboards/inline/menu.py:10
-msgid "premium button"
-msgstr "🆙 Получить PREMIUM"
-
 #: bot/keyboards/inline/menu.py:11
 msgid "info button"
 msgstr "Info"
 
 #: bot/middlewares/auth.py:41
 msgid "first message"
-msgstr ""
-"👋 <b>Добро пожаловать в бот.</b>\n\n"
-"Чтобы начать пользоваться ботом можете начать с /menu"
+msgstr "👋 Привет, я чат-бот поддержки куратора для работы со студентами.
+#~" Я использую алгоритмы машинного обучения для анализа запросов и генерации ответов."
+#~" Если у тебя есть какие-то вопросы к куратору, напиши мне в этот чат."
+#~" Ты также можешь позвать живого куратора, но, скорее всего, ответ придется подождать."
+
 
 #~ msgid ""
 #~ "👋 <b>Добро пожаловать в бот.</b>\n"

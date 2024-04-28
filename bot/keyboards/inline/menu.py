@@ -7,8 +7,8 @@ from .contacts import support_keyboard
 def main_keyboard() -> InlineKeyboardMarkup:
     """Use in main menu."""
     buttons = [
-        [InlineKeyboardButton(text=_("info button"), callback_data="info")],
-        [InlineKeyboardButton(text=_("support button"), callback_data="support")],
+        [InlineKeyboardButton(text=_("info button"), callback_data="first message")],
+        [InlineKeyboardButton(text=_("support text"), callback_data="support button")],
     ]
 
     keyboard = InlineKeyboardBuilder(markup=buttons)

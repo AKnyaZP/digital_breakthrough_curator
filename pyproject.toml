@@ -16,6 +16,11 @@ alembic = "^1.13.1"
 sqlalchemy = "^2.0.29"
 pybabel = "^0.0.0.dev0"
 babel = "^2.14.0"
+fastapi = "^0.110.2"
+jsonify = "^0.5"
+joblib = "^1.4.0"
+catboost = "^1.2.5"
+scikit-learn = "^1.4.2"
 
 [tool.poetry.group.bot.dependencies]
 aiogram = "^3.5.0"
